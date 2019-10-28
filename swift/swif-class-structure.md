@@ -1,4 +1,4 @@
-#Class & Structure
+# Class & Structure
 * Class와 Struct는 swift의 근간을 이루는(객체지향) 매우 중요한 핵심 요소이다.
 * Class와 Struct는 Member(Property / Method)를 포함한다.
 	* Property : Struct와 Class 내부에서 정의된 변수나 상수.
@@ -144,7 +144,7 @@ print("cinema 인스턴스의 width 값은 \(cinema.width)입니다.")
 	* 위 두 방법이 불가할 경우 Optional 타입으로 설정.
 
 ### 기본 초기화 구문(Initializer)
-* 인스턴스만을 생성하는 초기화 구문이다.
+* Instance만을 생성하는 초기화 구문이다.
 * 어떠한 Property도 초기화하지 않는다.
 * Class의 경우 모든 Property가 선언과 동시에 초기화되어 있을 경우에만 사용할 수 있다.
 
