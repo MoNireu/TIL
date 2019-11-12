@@ -7,8 +7,12 @@ Today I Learned
 
 ## 카테고리
 * [swift](#swift)
+* [iOS](#iOS)
 
 ---
 
 ### Swift
 * [Class & Structure](swift/swif-class-structure.md)
+
+### iOS
+* [SceneDelegate](ios/ios-scene-delegate.md)
