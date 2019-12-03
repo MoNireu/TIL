@@ -1,4 +1,4 @@
-#Property List
+# Property List
 * 객체 직렬화를 위한 XML 형식의 파일.
 * 단순한 데이터를 XML 포맷에 맞추어 (Key-Value)형식의 Dictionary 형식으로 저장하는 것.
 * 데이터의 타입을 추상화하여 저장.
@@ -19,7 +19,7 @@
 
 ### API
 #### 데이터 쓰기
-```
+```swift
 set(_value:Any?, forKey:String)
 set(_value:Bool, forKey:String)
 set(_value:Double, forKey:String)
@@ -34,7 +34,7 @@ set(_value:Int, forKey:String)
 
 예시
 
-```
+```swift
 let plist = UserDefaults.standard
 
 plist.set("홍길동", forKey: "name")
@@ -53,7 +53,7 @@ object(forKey:String)
 ```
 예시
 
-```
+```swift
 let plist = UserDefaults.standard
 
 let name = plist.string(forKey: "name")
@@ -75,7 +75,7 @@ let sex = plist.object(forKey: "sex") as? NSString
 
 예시
 
-```
+```swift
 import Foundation
 
 // 1단계: data.plist 파일을 읽어온다.
